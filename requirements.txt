@@ -1,0 +1,6 @@
+faiss-cpu
+numpy
+langchain
+langchain-google-genai
+sentence-transformers
+python-dotenv
