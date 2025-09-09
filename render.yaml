@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: agricultural-advisory-api
+    env: python
+    plan: free   # change to "starter" or higher if needed
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn app:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false   # tells Render to set it from dashboard instead of hardcoding
