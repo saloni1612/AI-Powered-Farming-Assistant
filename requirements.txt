@@ -1,6 +1,8 @@
-faiss-cpu
-numpy
-langchain
-langchain-google-genai
-sentence-transformers
-python-dotenv
+fastapi==0.111.1
+uvicorn==0.23.2
+python-dotenv==1.0.1
+faiss-cpu==1.7.4
+numpy==1.27.0
+sentence-transformers==2.2.2
+langchain==0.1.0
+langchain-google-genai==0.0.1
